@@ -39,6 +39,7 @@ class HomeFragment : BaseFragment(), HomeView, OnRefreshListener {
     @BindView(R.id.iv_user_image)
     var ivUserImage: ImageView? = null
 
+
     @JvmField
     @BindView(R.id.iv_circular_user_image)
     var ivCircularUserImage: ShapeableImageView? = null

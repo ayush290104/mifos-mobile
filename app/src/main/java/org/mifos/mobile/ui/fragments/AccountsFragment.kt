@@ -272,6 +272,8 @@ class AccountsFragment : BaseFragment(), OnRefreshListener, AccountsView {
      * @param shareAccounts [List] of [ShareAccount]
      */
     override fun showShareAccounts(shareAccounts: List<ShareAccount?>?) {
+        val a = 1
+        val b = 2
         Collections.sort(shareAccounts, ComparatorBasedOnId())
         this.shareAccounts = shareAccounts
         if (shareAccounts?.isNotEmpty() == true) {

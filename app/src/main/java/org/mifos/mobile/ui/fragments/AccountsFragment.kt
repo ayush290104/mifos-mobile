@@ -238,6 +238,8 @@ class AccountsFragment : BaseFragment(), OnRefreshListener, AccountsView {
      * @param loanAccounts [List] of [LoanAccount]
      */
     override fun showLoanAccounts(loanAccounts: List<LoanAccount?>?) {
+        val a = 1
+        val b = 2
         Collections.sort(loanAccounts, ComparatorBasedOnId())
         this.loanAccounts = loanAccounts
         if (loanAccounts?.isNotEmpty() == true) {
